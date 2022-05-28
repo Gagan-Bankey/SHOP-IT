@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SHOP</title>
+    <link rel="stylesheet" type="text/css" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/asignup.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="ak-account"><a id="ak-h1" href="#" class="ak-account"><h1>ACCOUNT</h1></a></div>
+    <div id="ak-container">
+        <div id="ak-register-form">
+            <div id="head-sign-up">
+              <div class="ak-sign-in" id="ak-hover" onclick="Click('signIn')"><p>Sign in</p></div>
+              <div class="ak-create-account" id="ak-hover" onclick="Click('signUp')"><p>Create Account</p></div>
+            </div>
+             <div class="form-inner">
+                <form action="#" class="login">
+                   <div class="field">
+                      <input type="text" id="ak-input" class="ak-login-email" placeholder="*Email Address" required>
+                   </div>
+                   <div class="field">
+                      <input type="password" id="ak-input" class="ak-login-pass" placeholder="*Password" required>
+                   </div>
+                   <div  id="ak-remember-me"><input type="checkbox" class="Remember-me"><label>Remember me</label></div>
+                   <div class="field btn">
+                      <div class="btn-layer"></div>
+                      <input type="submit" value="SIGN IN" id="ak-status-check-btn">
+                   </div>
+                   <div class="pass-link">
+                    <a href="#">Forgot Password?</a>
+                   </div>
+                </form>
+
+
+                <form action="#" class="signup">
+                    <div class="field" id="ak-name-box">
+                        <input type="text" id="ak-sign-input" placeholder="*First Name" required>
+                        <input type="text" id="ak-sign-input" placeholder="*Last Name" required>
+                    </div>
+                        
+                    <div class="field">
+                        <input type="text" id="ak-signup-input" class="ak-email" placeholder="*Email Address" required>
+                    </div>
+                   <div class="field">
+                      <input type="text" id="ak-signup-input" placeholder="*Confirm Email Address" required>
+                   </div>
+                   <div class="field">
+                      <input type="password" id="ak-signup-input" class="ak-pass" placeholder="*Password (8 - 255 characters)" required>
+                   </div>
+                   <div class="field">
+                      <input type="password" id="ak-signup-input" placeholder="*Confirm Password">
+                   </div>
+                   
+                    <div id="ak-gender">
+                        <p>Gender</p>
+                        <input type="radio" name="slide" id="female">
+                        <label>Female</label>
+                        <input type="radio" name="slide" id="male">
+                        <label>Male</label>
+                    </div>
+              
+                
+                   <div class="field btn">
+                      <div class="btn-layer"></div>
+                      <input type="submit" value="REGISTER" id="ak-status-check-btn">
+                   </div>
+                </form>
+             </div>
+        </div>
+       
+    </div>
+
+    <div id="footer"></div>
+</body>
+</html>
+
+
+<script src="../scripts/asignup.js" ></script>  
